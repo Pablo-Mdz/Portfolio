@@ -1,0 +1,12 @@
+/* src/pages/Projects.css */
+
+.projects-container {
+    padding: 2rem;
+  }
+  
+  .projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
