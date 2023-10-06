@@ -1,24 +1,57 @@
-/* src/components/Navbar.css */
+.portfolio-template,
+.portfolio-template * {
+  box-sizing: border-box;
+}
+.portfolio-template {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 1280px;
+  position: relative;
+}
+.navigation {
+  background: #ffffff;
+  padding: 24px 42px 24px 42px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.logo {
+  color: var(--black, #2d2d2d);
+  text-align: left;
+  font: var(--subtitle, 600 20px/30px "Epilogue", sans-serif);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.menu-items {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  position: relative;
+}
+.about,
+.work,
+.contact {
+  color: var(--black, #2d2d2d);
+  text-align: left;
+  font: var(--bodytext, 400 17px/27px "Epilogue", sans-serif);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
 
-.navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: #333;
-    color: white;
-    text-align: center;
-    z-index: 100;
-    padding: 12px;
-  }
-  
-  .nav-link {
-    padding: 1rem;
-    margin: 0 1rem;
-    color: white;
-    text-decoration: none;
-  }
-  
-  .nav-link:hover {
-    background-color: #555;
-  }
   

@@ -4,13 +4,16 @@ import './Navbar.css';
 
 const Navbar = () => {
   return (
-    <div className="navbar">
-      <a href="#home" className="nav-link">Home</a>
-      <a href="#about" className="nav-link">About</a>
-      <a href="#projects" className="nav-link">Projects</a>
-      <a href="#contact" className="nav-link">Contact</a>
+    <div className="navigation">
+      <div className="logo">Logo</div>
+      <div className="menu-items">
+        <div className="about">About</div>
+        <div className="work">Work</div>
+        <div className="contact">Contact</div>
+      </div>
     </div>
   );
 };
 
 export default Navbar;
+

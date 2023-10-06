@@ -3,13 +3,11 @@ import React from 'react'
 const New = () => {
     return (
         <div>
-        <div>
-        <div>
-            {/* <div class="w-[1280px] h-[3473.83px] bg-white flex-col justify-start items-center inline-flex">
-                <div class="self-stretch px-[42px] py-6 bg-white justify-between items-center inline-flex"> */}
+            <div class="w-[1280px] h-[3473.83px] bg-white flex-col justify-start items-center inline-flex">
+                <div class="self-stretch px-[42px] py-6 bg-white justify-between items-center inline-flex">
                     <div class="text-zinc-800 text-xl font-semibold font-['Epilogue'] leading-[30px]">Logo</div>
                     <div class="justify-end items-start gap-6 flex">
-                        <div class="text-zinc-800 text-[17px] font-normal font-['Epilogue'] leading-[27px]">About</div>
+                        <div class="text-zinc-800 text-[17px] font-normal font-['Epilogue'] leading-[27px]">Abaout</div>
                         <div class="text-zinc-800 text-[17px] font-normal font-['Epilogue'] leading-[27px]">Work</div>
                         <div class="text-zinc-800 text-[17px] font-normal font-['Epilogue'] leading-[27px]">Contact</div>
                     </div>
