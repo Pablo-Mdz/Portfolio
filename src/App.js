@@ -5,6 +5,7 @@ import Home from './Pages/Home';
 import About from './Pages/AboutMe';
 import Navbar from './components/Navbar';
 import Projects from './Pages/Projects';
+import New from './Pages/New';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
      <About />
      </div>
      <Projects />
+     <New />
     </div>
   );
 }
