@@ -84,8 +84,9 @@
     height: 560px;
     min-width: 320px;
     max-width: 480px;
-    object-fit: cover; /* o "contain", dependiendo de lo que desees */
+    object-fit: cover; /* or "contain",  */
     position: relative;
     border-radius: 50px;
+    box-shadow: 0px 4px 10px rgba(45, 45, 45, 0.2);
   }
   
