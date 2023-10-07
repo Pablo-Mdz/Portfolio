@@ -10,7 +10,12 @@
   }
   
   .about-text {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: #666;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%; /* Ajusta el ancho de la "caja" que contiene el texto */
   }
+  
   

@@ -6,16 +6,17 @@ import About from './Pages/AboutMe';
 import Navbar from './components/Navbar';
 import Projects from './Pages/Projects';
 import New from './Pages/New';
-
+import Skills from '../src/components/Skills';
 function App() {
-  return (
-    <div className="App">
+    return (
+        <div className="App">
      < Navbar />
      <div id='home'>
      <Home />
      </div>
      <div id='about'>
      <About />
+        <Skills />
      </div>
      {/* <Projects /> */}
      {/* <New /> */}
