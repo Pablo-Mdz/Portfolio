@@ -49,6 +49,13 @@ const Projects = () => {
             skills: [" CSS, Python, Tkinter"],
             url: "https://github.com/Pablo-Mdz",
         },
+        // {
+        //     // Add image in './styles/images.css' in #project6
+        //     id: "project-list",
+        //     name: "Contacts list",
+        //     skills: [" CSS, Python, Tkinter"],
+        //     url: "https://github.com/Pablo-Mdz",
+        // },
     ];
 
   const projectData = [
