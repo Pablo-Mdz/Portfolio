@@ -5,6 +5,8 @@ import 'font-awesome/css/font-awesome.min.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import SmoothScroll from 'smooth-scroll'; 
+import 'font-awesome/css/font-awesome.min.css';
+
 
 
 document.addEventListener("DOMContentLoaded", () => {

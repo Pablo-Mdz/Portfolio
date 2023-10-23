@@ -9,4 +9,8 @@
     flex-wrap: wrap;
     justify-content: center;
   }
-  
+  /* Projects.css */
+.project-link {
+    text-decoration: none;
+    color: inherit; /* O el color que desees */
+}

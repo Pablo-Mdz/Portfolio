@@ -26,8 +26,7 @@ const Home = () => {
           <div className="branding-image-making">Developer | Designer</div>
           <div className="visual-designer">Pablo Cigoy</div>
           <div className="first-text">
-             React developer & UX/UI designer
-           
+             Frontend developer & UX/UI designer
           </div>
         </div>
         <div className="button">

@@ -1,0 +1,72 @@
+.parallax {
+    /* tus estilos de parallax */
+  }
+  
+  .git-form {
+    /* tus estilos de git-form */
+  }
+  
+  .git-head-div {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .git-head {
+    font-size: 36px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .git-cont {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-container {
+    width: 100%;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-group button {
+    padding: 15px 30px;
+    background-color: #333;
+    color: white;
+    border: none;
+    /* border-radius: 5px; */
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .inline-block i {
+
+    font-size: 24px; 
+    margin: 15px; 
+    color: #333;
+  }
+  
+  .social-icons a {
+    margin: 0 15px;
+  }
+  
+  .Copy {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
