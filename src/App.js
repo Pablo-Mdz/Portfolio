@@ -6,7 +6,6 @@ import About from './Pages/About';
 import Navbar from './components/Navbar';
 import Projects from './Pages/Projects';
 import 'font-awesome/css/font-awesome.min.css';
-import Skills from '../src/components/Skills';
 import Contact from './Pages/Contact';
 function App() {
     return (
