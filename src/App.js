@@ -5,6 +5,7 @@ import Home from './Pages/Home';
 import About from './Pages/About';
 import Navbar from './components/Navbar';
 import Projects from './Pages/Projects';
+import Skills from './components/Skills';
 import 'font-awesome/css/font-awesome.min.css';
 import Contact from './Pages/Contact';
 function App() {
@@ -16,7 +17,7 @@ function App() {
             </div>
             <div id='about'>
                 <About />
-                {/* <Skills /> */}
+                <Skills />
             </div>
             <Projects />
             <Contact />
