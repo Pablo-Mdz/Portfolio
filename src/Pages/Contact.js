@@ -50,7 +50,7 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                <p className="Copy">2023 © Copyright Your Name. All Rights Reserved</p>
+                <p className="Copy">2024 © Copyright Pablo Cigoy. All Rights Reserved</p>
             </div>
         </div>
     );
