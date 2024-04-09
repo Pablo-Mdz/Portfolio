@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    
   }
 
 .portfolio-template,
@@ -7,7 +8,7 @@ html {
   box-sizing: border-box;
 }
 .portfolio-template {
-  background: #ffffff;
+    
   display: flex;
   flex-direction: column;
   gap: 0px;
@@ -17,7 +18,7 @@ html {
   position: relative;
 }
 .navigation {
-  background: #ffffff;
+    background-color: rgb(206, 250, 222);
   padding: 24px 42px 24px 42px;
   display: flex;
   flex-direction: row;

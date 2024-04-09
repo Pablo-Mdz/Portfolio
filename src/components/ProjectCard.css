@@ -1,7 +1,9 @@
 
 
 .project-card {
+    background-color: rgb(206, 250, 222);
     width: 300px;
+    height: 300px;
     margin: 1rem;
     padding: 1rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -15,6 +17,7 @@
   .project-image {
     width: 100%;
     height: auto;
+    border-radius: 2%;
   }
   
   .project-title {
