@@ -7,7 +7,7 @@ import './Projects.css';
 const Projects = () => {
 
     const projectData = [
-        { title: 'Andorid App Kita Adventure', description: 'Kotlin, Android Studio, Figma', imageUrl: 'kita.png', url: "https://github.com/SI-Classroom-Batch-013/android-abschluss-Pablo-Mdz" },
+        { title: 'Andorid App Kita Adventure', description: 'Kotlin, Android Studio, Figma', imageUrl: 'kita.png', url: "https://medium.com/@pablocigoy/case-study-abenteuer-kita-facilitating-communication-and-engagement-in-early-childhood-education-e14857209862" },
         { title: 'Android App  whatsApp', description: 'Kotlin, Android Studio, Figma', imageUrl: 'whatsApp.png', url: "https://github.com/Pablo-Mdz/WhatsSyntax" },
         { title: 'Be Chef - Web page', description: 'JS, React, MongoDB, Express, Tailwind', imageUrl: 'be-chef.png', url: "https://be-chef.netlify.app/", },
         { title: 'Sabor Latino - Web page', description: 'JS, Handlebars, Bootstrap, Express, MongoDB', imageUrl: 'sabor-latino.png', url: "https://thoughtful-cod-cloak.cyclic.app/", },
