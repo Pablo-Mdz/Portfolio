@@ -9,9 +9,9 @@ const Home = () => {
         <div className="title-subtitle">
           <div className="branding-image-making">Developer | Designer</div>
           <div className="visual-designer">Pablo Cigoy</div>
-          {/* <div className="first-text">
-             Software developer & UX/UI designer
-          </div> */}
+          <div className="first-text">
+             Android / Frontend developer & UX/UI designer
+          </div>
         </div>
         {/* <div className="button">
           <div className="contact2">Contact</div>

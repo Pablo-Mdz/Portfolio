@@ -6,6 +6,9 @@
     /* tus estilos de git-form */
   }
   
+  .form-container button {
+    border-radius: 5px; /* tus estilos de form-container button */
+  }
   .git-head-div {
     text-align: center;
     margin-bottom: 40px;
