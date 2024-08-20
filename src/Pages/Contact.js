@@ -1,19 +1,29 @@
-
 import emailjs from '@emailjs/browser';
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import './Contact.css';
 
 const Contact = () => {
     const form = useRef();
+    const [toastMessage, setToastMessage] = useState("");
+    const [toastVisible, setToastVisible] = useState(false);
 
+    const showToast = (message) => {
+        setToastMessage(message);
+        setToastVisible(true);
+        setTimeout(() => {
+            setToastVisible(false);
+        }, 3000);
+    }
 
     const sendEmail = (e) => {
         e.preventDefault();
         emailjs.sendForm('service_5ts0tyu', 'template_tvfybt7', form.current, '1d-j2JW1QjE-26RcM')
             .then((result) => {
                 console.log(result.text);
+                showToast('Thank you for your message. I will get back to you shortly.');
             }, (error) => {
                 console.log(error.text);
+                showToast('There was an error sending your message. Please try again.');
             });
         e.target.reset();
     }
@@ -26,6 +36,7 @@ const Contact = () => {
 
     return (
         <div id="contact">
+            <div id="toast" className={`toast ${toastVisible ? 'show' : 'hide'}`}>{toastMessage}</div>
             <div className="git-form">
                 <div className="git-head-div">
                     <h1 id="Contact" className="git-head">Get in Touch!</h1>
