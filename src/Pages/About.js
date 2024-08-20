@@ -9,13 +9,10 @@ const About = () => {
         <div className="about-container">
             <h2 className="about-title">About Me</h2>
             <p className="about-text">
-            I am a software developer specializing in mobile app development, with expertise in Figma, Kotlin, and Swift. I honed my mobile development skills at the Syntax Institut, where I learned to apply MVVM architecture, REST API, Firebase/Firestore, Moshi, Retrofit, Coroutines, and CoreData in my applications. <br></br>
+            I am a mobile app developer with two years of focused study and hands-on experience in Kotlin, Swift, and Figma. I specialize in applying MVVM architecture, REST APIs, and Firebase/Firestore in my projects. My background also includes strong skills in full stack web development, particularly in JavaScript, React, NodeJS, and MongoDB. <br /> 
+            <br />
 
-I have also completed a full stack web development bootcamp at Ironhack Berlin in 2022, where I gained strong skills in JavaScript, React, NodeJS, and MongoDB. Since then, I have been continuously learning and programming. <br />
-
-Additionally, I work as a programming instructor at the ReDi bootcamp in Berlin, where I share my knowledge and passion for software development with students. Outside of my professional life, my interests include cooking, traveling, and cycling. <br />
-
-I have had the privilege of traveling to 38 countries and working in 5 of them, using my skills in teamwork, organizational tasks, task optimization, management, advice, and service in various environments, including private and public events. With over 10 years of experience working in kitchens, I am a sociable person who excels in team environments and is committed to constant improvement.   </p>
+Previously, I worked as a programming instructor at ReDi Bootcamp in Berlin, where I shared my passion for software development. Outside of work, I enjoy cooking, traveling, and cycling. My global experiences in 38 countries have sharpened my teamwork, management, and organizational skills. With over 10 years in kitchens, I excel in team environments and am committed to continuous improvement. </p>
         </div>
     );
 };

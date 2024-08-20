@@ -7,6 +7,7 @@ import './Projects.css';
 const Projects = () => {
 
     const projectData = [
+        { title: 'iOS App - Catering Manager', description: 'Swift, Firebase, RestAPI, MVVM', imageUrl: 'cateringManager.png', url: "https://medium.com/@pablocigoy/catering-manager-a-catering-event-management-tool-developed-with-swiftui-dd5fe95964cc", },
         { title: 'iOS App - Mate Mundo', description: 'Swift, Firebase, xCode, MVVM', imageUrl: 'matemundo.png', url: "https://medium.com/@pablocigoy/matemundo-your-ultimate-yerba-mate-marketplace-app-for-ios-50226025e514", },
         { title: 'Andorid App - Kita Adventure', description: 'Kotlin, Android Studio, Figma, MVVM', imageUrl: 'kita.png', url: "https://medium.com/@pablocigoy/case-study-abenteuer-kita-facilitating-communication-and-engagement-in-early-childhood-education-e14857209862" },
         { title: 'Android App -  whatsApp', description: 'Kotlin, Android Studio, Figma', imageUrl: 'whatsApp.png', url: "https://github.com/Pablo-Mdz/WhatsSyntax" },
