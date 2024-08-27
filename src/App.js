@@ -17,9 +17,9 @@ function App() {
             </div>
             <div id='about'>
                 <About />
-                <Skills />
-            </div>
             <Projects />
+            </div>
+                <Skills />
             <Contact />
         </div>
     );
