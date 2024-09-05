@@ -10,7 +10,7 @@ const Home = () => {
           <div className="branding-image-making">Developer | Designer</div>
           <div className="visual-designer">Pablo Cigoy</div>
           <div className="first-text">
-             Mobile (Kotlin | Swift) / Frontend developer & UX/UI designer
+             Mobile App developer | Frontend developer | UX/UI designer
           </div>
         </div>
         {/* <div className="button">
