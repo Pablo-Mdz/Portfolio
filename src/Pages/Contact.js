@@ -39,7 +39,7 @@ const Contact = () => {
             <div id="toast" className={`toast ${toastVisible ? 'show' : 'hide'}`}>{toastMessage}</div>
             <div className="git-form">
                 <div className="git-head-div">
-                    <h1 id="Contact" className="git-head">Get in Touch!</h1>
+                    {/* <h1 id="Contact" className="git-head">Get in Touch!</h1> */}
                 </div>
                 <div className="container">
                     <div className="git-cont">
