@@ -43,7 +43,7 @@ const Contact = () => {
                 </div>
                 <div className="container">
                     <div className="git-cont">
-                        <div className="form-container">
+                        {/* <div className="form-container">
                             <form ref={form} onSubmit={sendEmail} className="form-group">
                                 <input type="text" id="fname" name="firstname" placeholder="Your name" required />
                                 <input type="mail" id="mailid" name="Email" placeholder="Email Address" required />
@@ -51,7 +51,7 @@ const Contact = () => {
                                 <textarea id="msg" name="message" placeholder="Message" required />
                                 <button type="submit">Send Message</button>
                             </form>
-                        </div>
+                        </div> */}
                         <div className="d-flex justify-content-center align-items-center flex-column">
                             <div className="inline-block">
                                 {social.linkedin && <a title="Visit Linkedin profile" rel="noopener noreferrer" target="_blank" href={social.linkedin}><i className="fab fa-linkedin"></i></a>}
